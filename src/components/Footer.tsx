@@ -57,7 +57,7 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-2 text-gray-400">
                 <Phone size={16} />
-                <span className="text-sm">+25473393795</span>
+                <span className="text-sm">+254 733 937 955</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-400">
                 <Mail size={16} />
@@ -73,7 +73,7 @@ export function Footer() {
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 Terry Spaces. All rights reserved. | Designed with care for your success.
+           &copy; {new Date().getFullYear()} Terry Spaces. All rights reserved. | Designed with care for your success.
           </p>
         </div>
       </div>
